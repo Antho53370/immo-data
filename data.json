@@ -1,0 +1,85 @@
+{
+  "version": "2025-04",
+  "mise_a_jour": "24 avril 2025",
+  "prochaine_maj": "10 mai 2025",
+
+  "taux_credit": {
+    "source": "Observatoire Crédit Logement / CSA — Avril 2025",
+    "immo_10ans": 3.20,
+    "immo_15ans": 3.40,
+    "immo_20ans": 3.65,
+    "immo_25ans": 3.80,
+    "travaux_court": 5.50,
+    "travaux_long": 6.50,
+    "conso_court": 5.50,
+    "conso_long": 7.50,
+    "assurance_emprunteur_min": 0.20,
+    "assurance_emprunteur_moy": 0.35
+  },
+
+  "prix_m2_locatif": {
+    "source": "SeLoger / LocService / PAP — Avril 2025",
+    "paris":        { "label": "Paris intra-muros",              "min": 32, "max": 50, "moy": 39, "meuble": "+15 à +25%" },
+    "idf_petite":   { "label": "IDF petite couronne",            "min": 20, "max": 32, "moy": 26, "meuble": "+10 à +20%" },
+    "idf_grande":   { "label": "IDF grande couronne",            "min": 14, "max": 22, "moy": 18, "meuble": "+10 à +15%" },
+    "grande_ville": { "label": "Grande ville (Lyon, Nantes…)",   "min": 13, "max": 20, "moy": 16, "meuble": "+10 à +20%" },
+    "ville_moy":    { "label": "Ville moyenne",                  "min": 10, "max": 15, "moy": 12, "meuble": "+10 à +15%" },
+    "province":     { "label": "Province / Petite ville",        "min":  7, "max": 12, "moy":  9, "meuble": "+5 à +15%"  },
+    "rural":        { "label": "Rural / Zone campagne",          "min":  5, "max": 10, "moy":  7, "meuble": "+5 à +10%"  }
+  },
+
+  "valorisation_annuelle": {
+    "source": "Notaires de France / INSEE — T1 2025",
+    "paris_intra":       { "label": "Paris intra-muros",               "taux": 2.5, "tendance": "stable" },
+    "idf_petite":        { "label": "IDF petite couronne",             "taux": 1.8, "tendance": "hausse" },
+    "idf_grande":        { "label": "IDF grande couronne",             "taux": 1.5, "tendance": "stable" },
+    "lyon":              { "label": "Lyon / Métropole",                "taux": 2.8, "tendance": "hausse" },
+    "bordeaux":          { "label": "Bordeaux / Gironde",              "taux": 2.0, "tendance": "stable" },
+    "marseille":         { "label": "Marseille / PACA",                "taux": 2.2, "tendance": "hausse" },
+    "nantes":            { "label": "Nantes / Pays de la Loire",       "taux": 2.5, "tendance": "hausse" },
+    "toulouse":          { "label": "Toulouse / Occitanie",            "taux": 2.7, "tendance": "hausse" },
+    "nice_cote":         { "label": "Nice / Côte d'Azur",             "taux": 2.4, "tendance": "hausse" },
+    "rennes":            { "label": "Rennes / Bretagne",               "taux": 2.3, "tendance": "hausse" },
+    "strasbourg":        { "label": "Strasbourg / Grand Est",          "taux": 1.8, "tendance": "stable" },
+    "lille":             { "label": "Lille / Hauts-de-France",         "taux": 1.9, "tendance": "hausse" },
+    "province_moyenne":  { "label": "Province / Ville moyenne",        "taux": 1.2, "tendance": "stable" },
+    "rural":             { "label": "Rural / Petite ville",            "taux": 0.5, "tendance": "stable" },
+    "station_balneaire": { "label": "Station balnéaire / Montagne",    "taux": 3.2, "tendance": "hausse" }
+  },
+
+  "fiscalite": {
+    "source": "DGFiP / Bofip — 2025",
+    "tranches_ir": [
+      { "max": 11294,  "taux": 0    },
+      { "max": 28797,  "taux": 0.11 },
+      { "max": 82341,  "taux": 0.30 },
+      { "max": 177106, "taux": 0.41 },
+      { "max": 999999, "taux": 0.45 }
+    ],
+    "prelevements_sociaux": 0.172,
+    "is_taux_reduit":       0.15,
+    "is_seuil_reduit":      42500,
+    "is_taux_normal":       0.25,
+    "flat_tax":             0.30,
+    "lmnp_amort_bien_pct":  0.85,
+    "lmnp_amort_bien_taux": 0.03,
+    "lmnp_amort_travaux":   0.10,
+    "lmnp_amort_mobilier":  0.143,
+    "lmp_ssi_taux":         0.35,
+    "pv_abatt_ir_debut":    6,
+    "pv_abatt_ir_taux":     0.06,
+    "pv_exo_ir_ans":        22,
+    "pv_abatt_ps_debut":    6,
+    "pv_abatt_ps_taux":     0.0165,
+    "pv_exo_ps_ans":        30
+  },
+
+  "frais_notaire": {
+    "source": "Chambre des Notaires — 2025",
+    "ancien_min": 7.0,
+    "ancien_moy": 8.0,
+    "ancien_max": 8.5,
+    "neuf_min":   2.0,
+    "neuf_max":   3.0
+  }
+}
